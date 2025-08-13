@@ -1,0 +1,43 @@
+body{
+    background-color: chocolate;
+}
+
+.main{
+     margin: auto;
+    width: max-content;
+}
+
+#box{
+    border: 2px dashed #000;
+    width: 340px;
+    height: 340px;
+    margin-bottom: 30px;
+}
+
+button{
+    cursor: pointer;
+    display: block;
+    width: 340px;
+    height: 60px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: Papyrus;
+   
+}
+
+#azul{background-color: #0059ff;}
+#azul:hover{
+    background-color: #015075;
+}
+
+#verde{background-color: #15ff0d;}
+#verde:hover{
+    background-color: #306429;
+}
+
+#vermelho{background-color: #eb2a2a;}
+#vermelho:hover{
+    background-color: #882020;
+}
