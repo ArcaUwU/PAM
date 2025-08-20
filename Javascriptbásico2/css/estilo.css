@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'open sans';
+    src: url(../font/OpenSans.ttf);
+}
+
+body{
+    background-color: #ffffff;
+    font-family: 'open sans';
+}
+
+#main{
+    margin:auto;
+    background-color: aliceblue;
+    padding: 35px;
+    width: max-content;
+
+}
+h2{
+    text-align: center;
+}
+container{
+    width: 500px;
+    height: 200px;
+    border: 1px solid #0000;
+}
+
+#box{
+    margin: auto;
+    border: 7px dashed #00000000;
+    border-radius: 15px;
+    width: 100px;
+    height: 100px;
+}
+
+#conf{
+    margin: auto;
+    width: max-content;
+    padding: 20px;
+}
+
+label, input{
+    display: block;
+}
+
+input{
+    width: 220px;
+    margin-bottom:20px;
+}
